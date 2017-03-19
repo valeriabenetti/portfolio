@@ -1,8 +1,116 @@
-html {
-  text-size-adjust: 100%;
+body {
+  background-image: url("images/space.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+  margin: 0;
+  padding: 0;
+  font: 16px / 1;
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+header img {
+  height: 150px;
+  width: 200px;
+  /*border: 0px transparent solid;*/
+  border-radius: 10px 10px 10px 10px;
+}
+
+.popmname {
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.list ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 0;
+}
+
+.list ul li {
+  flex: 1;
+  margin: 0.5em;
+}
+
+.list ul li img {
+  width: 100%;
+}
+
+.hello {
+  justify-content: center;
+}
+
+.react {
+  position: relative;
+  width: 860px;
+  height: 80px;
+  overflow: hidden;
+  border: 0px transparent solid;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.react img {
+  position: absolute;
+  top: -255%;
+}
+
+.words {
+  background-color: #fff;
+  overflow: hidden;
+  border: 0px transparent solid;
+  border-radius: 0px 0px 10px 10px;
+  width: 860px;
+}
+
+.read {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(20, 131, 210);
+  border: 0px transparent solid;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+}
+
+.buzz {
+  position: relative;
+  width: 860px;
+  height: 80px;
+  overflow: hidden;
+  border: 0px transparent solid;
+  border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+}
+
+footer h1 {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+
+footer ul li img {
+  height: 80px;
+  width: 80px;
+  padding: 0;
+}
+
+footer p {
+  color: white;
+  font-size: 11px;
 }
