@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/space.png");
+  background-image: url("images/nebula.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -26,7 +26,10 @@ header img {
 
 .popmname {
   overflow: hidden;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #fff;
+  overflow: hidden;
+  border: 0px transparent solid;
 }
 
 .list ul {
@@ -34,6 +37,7 @@ header img {
   justify-content: space-around;
   list-style: none;
   padding-left: 0;
+  margin-top: 5em;
 }
 
 .list ul li {
@@ -43,24 +47,6 @@ header img {
 
 .list ul li img {
   width: 100%;
-}
-
-.hello {
-  justify-content: center;
-}
-
-.react {
-  position: relative;
-  width: 860px;
-  height: 80px;
-  overflow: hidden;
-  border: 0px transparent solid;
-  border-radius: 10px 10px 0px 0px;
-}
-
-.react img {
-  position: absolute;
-  top: -255%;
 }
 
 .words {
@@ -90,13 +76,9 @@ header img {
   border-radius: 10px 10px 0px 0px;
 }
 
-footer {
-  align-items: center;
-  justify-content: center;
-}
-
 footer h1 {
   color: white;
+  text-align: center;
 }
 
 footer ul {
@@ -108,9 +90,12 @@ footer ul li img {
   height: 80px;
   width: 80px;
   padding: 0;
+  align-content: center;
+  margin: 1em;
 }
 
 footer p {
   color: white;
   font-size: 11px;
+  text-align: center;
 }
