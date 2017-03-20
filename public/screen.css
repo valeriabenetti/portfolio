@@ -25,6 +25,7 @@ header img {
 }
 
 .popname {
+  position: relative;
   border: 0px transparent;
   background-color: #fff;
   margin-left: 1em;
@@ -33,12 +34,15 @@ header img {
 }
 
 .triangle {
+  position: absolute;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 30px 30px 0 0;
   border-color: #fff transparent transparent transparent;
   opacity: 0.5;
+  bottom: 67.4%;
+  left: 46%;
 }
 
 .list ul {
@@ -56,6 +60,7 @@ header img {
 
 .list ul li img {
   width: 100%;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .words {
