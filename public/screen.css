@@ -15,21 +15,30 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 5em;
+  height: 90px;
 }
 
 header img {
   height: 150px;
   width: 200px;
-  /*border: 0px transparent solid;*/
   border-radius: 10px 10px 10px 10px;
 }
 
-.popmname {
-  overflow: hidden;
-  border-radius: 10px 10px 10px 10px;
+.popname {
+  border: 0px transparent;
   background-color: #fff;
-  overflow: hidden;
-  border: 0px transparent solid;
+  margin-left: 1em;
+  opacity: 0.5;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 30px 0 0;
+  border-color: #fff transparent transparent transparent;
+  opacity: 0.5;
 }
 
 .list ul {
@@ -81,17 +90,11 @@ footer h1 {
   text-align: center;
 }
 
-footer ul {
-  list-style: none;
-  display: flex;
-}
-
-footer ul li img {
+footer img {
   height: 80px;
   width: 80px;
-  padding: 0;
-  align-content: center;
   margin: 1em;
+  align-items: center;
 }
 
 footer p {
